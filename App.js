@@ -38,12 +38,15 @@ const App = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <View style={styles.body}>
+          <View style={styles.body}>    
+              <Text style={styles.sectionTitle}>Cremosini, uhmm crema.</Text>
+              <Text style={styles.sectionTitle}>returns</Text>
+          </View>
+          {/* <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step Josep</Text>
+              <Text style={styles.sectionTitle}>Cremosini</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                Edit <Text style={styles.highlight}>App.js</Text> tremendamente cremoso, ummh crema.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -65,7 +68,7 @@ const App = () => {
               </Text>
             </View>
             <LearnMoreLinks />
-          </View>
+          </View> */}
         </ScrollView>
       </SafeAreaView>
     </Fragment>
@@ -90,7 +93,8 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: Colors.red,
+    textAlign: "center",
   },
   sectionDescription: {
     marginTop: 8,
